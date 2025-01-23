@@ -1,2 +1,6 @@
 #Power Distribution Overview
-In our capstone design project I have been tasked with Power Distribution. This subsystems primary purpose is to ensure that the power generated from the lead acid battery is converted into usable power for other applications to use. In order to convert the 12V, 5A battery output into usable power I have designed and implemented a Buck Converter and Modified Sine Wave Inverter.
+In our capstone design project I have been tasked with Power Distribution. This subsystems primary purpose is to ensure that the power generated from the lead acid battery is converted into usable power for other applications to use. In order to convert the 12V, 5A battery output into usable power I have designed and implemented Buck Converters and Modified Sine Wave Inverters.
+
+The Buck Converters that I have designed and manufactured are centered around an ADP1853 Buck Controller chip. This Buck Converter has been tested and proven to intake a voltage range of 10V to 15V and output a steady 3.3V that will be used by the MCU and Sensor systems in this project.
+
+The Modified Sine Wave Inverters that I have designed and manufactured have been tested and proven to intake 12V, 5A from the lead acid battery and invert the DC voltage into 220VAC, 100mA that will be used for the indoor and outdoor lights. The Modified Sine Wave Inverters have been designed to handle different loads depending on user preference, and features a voltage controlled switch that switches "on" when the MCU sends a signal.
