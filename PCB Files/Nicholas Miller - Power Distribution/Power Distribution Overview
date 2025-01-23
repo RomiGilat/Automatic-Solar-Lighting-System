@@ -1,1 +1,2 @@
+#Power Distribution Overview
 In our capstone design project I have been tasked with Power Distribution. This subsystems primary purpose is to ensure that the power generated from the lead acid battery is converted into usable power for other applications to use. In order to convert the 12V, 5A battery output into usable power I have designed and implemented a Buck Converter and Modified Sine Wave Inverter.
