@@ -1,0 +1,18 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Interior_Sensor_redesign1.PcbDoc   05/02/2025  17:47:02
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : Interior_Sensor_redesign1.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.381mm (15mil)                                           Round             38        PTH        209.62mm (8.25inch)
+T2      0.65mm (26mil)                                            Round             6         PTH        30.48mm (1.20inch)
+T3      1.02mm (40mil)                                            Round             6         PTH        12.70mm (0.50inch)
+T4      1.3mm (51mil)                                             Round             3         PTH        10.00mm (0.39inch)
+T5      3.175mm (125mil)                                          Round             4         PTH        156.08mm (6.15inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              57
+
+Total Processing Time (hh:mm:ss) : 00:00:00

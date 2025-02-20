@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [Interior_Sensor.PrjPcb]
+   Generated File[Interior_Sensor_redesign1.TXT]
+   Generated File[Interior_Sensor_redesign1.LDP]
+   Generated File[Interior_Sensor_redesign1.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 17:47:02 On 05/02/2025
