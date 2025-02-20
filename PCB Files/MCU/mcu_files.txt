@@ -1,0 +1,2 @@
+This will hold the MCU folder, 
+For reference the pins for right side 3V3 and GND are flipped, and the tactle footprint is incorrect 
