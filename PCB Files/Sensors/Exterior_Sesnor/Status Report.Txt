@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [Exterior Sensor for ASLS.PrjPcb]
+   Generated File[Exterior_sensor_redesign.TXT]
+   Generated File[Exterior_sensor_redesign.LDP]
+   Generated File[Exterior_sensor_redesign.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 17:47:38 On 05/02/2025
