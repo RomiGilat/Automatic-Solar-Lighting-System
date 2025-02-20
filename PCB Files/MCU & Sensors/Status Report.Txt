@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [MCU.PrjPcb]
+   Generated File[MCU_redesign.TXT]
+   Generated File[MCU_redesign.LDP]
+   Generated File[MCU_redesign.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 17:37:48 On 05/02/2025
