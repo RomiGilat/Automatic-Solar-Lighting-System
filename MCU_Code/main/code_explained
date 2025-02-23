@@ -1,0 +1,74 @@
+## **Core Functionalities:**
+1. **Wi-Fi Initialization (`wifi_init_sta`)**
+   - Connects the ESP32 to a Wi-Fi network using the provided SSID and password.
+   - Uses **Station mode (STA)** for connectivity.
+   - Sets up the necessary networking stack and initializes the Wi-Fi driver.
+
+2. **GPIO Configuration (`configure_gpio`)**
+   - Configures **GPIO pins** for LED outputs:
+     - `POWER_LED_PIN` (GPIO 25) - Always ON (indicating power).
+     - `LED_1` (GPIO 14) - Used as an indicator for Firebase communication.
+     - `LIGHT_SIGNAL_1` (GPIO 33) - Controls **exterior lights**.
+     - `LIGHT_SIGNAL_2` (GPIO 36) - Controls **interior lights**.
+
+3. **UART Communication Setup (`uart_init`)**
+   - Configures **two UART ports**:
+     - `UART_PORT_NUM_0` (GPIO 16 TX, GPIO 14 RX) for **exterior sensor**.
+     - `UART_PORT_NUM_1` (GPIO 17 TX, GPIO 27 RX) for **interior sensor**.
+   - Enables data transmission between the ESP32 and **two sensor modules**.
+
+4. **Sensor Handling Tasks (`exterior_sensor_task` and `interior_sensor_task`)**
+   - Reads sensor data over **UART** and triggers the **light signals** when movement is detected.
+   - **Exterior sensor task (`exterior_sensor_task`)**
+     - If data is received via UART 0:
+       - Turns ON **light signal 1** (GPIO 33).
+       - Keeps it ON for **10 minutes**.
+   - **Interior sensor task (`interior_sensor_task`)**
+     - If data is received via UART 1:
+       - Turns ON **light signal 2** (GPIO 36).
+       - Keeps it ON for **10 minutes**.
+   - After 10 minutes, the respective light signal is turned OFF.
+
+5. **Firebase Communication (`send_to_firebase`)**
+   - Sends data to Firebase (not fully implemented here).
+   - Toggles `LED_1` (blinks for 1 second).
+
+6. **LED Blinking Task (`firebase_led_task`)**
+   - Continuously blinks `LED_1` every second, possibly as a status indicator.
+
+7. **Main Application (`app_main`)**
+   - Configures GPIO.
+   - Initializes **Wi-Fi** connection.
+   - Sets up **UART communication**.
+   - Starts the **Firebase LED blink task**.
+   - Starts **sensor data processing tasks** (exterior and interior sensors).
+
+---
+
+### **How It Works in Real-World Usage:**
+- The ESP32 connects to **Wi-Fi**.
+- It listens for **motion data** from two **PIR sensors** (or other motion sensors) via **UART**.
+- When a **sensor detects motion**, the **corresponding light signal is turned ON** for 10 minutes.
+- The system logs data and can send updates to **Firebase** (but Firebase integration is incomplete).
+- A **status LED blinks** to indicate activity.
+
+---
+
+### **Potential Issues & Improvements:**
+1. **Security Risks:**
+   - The **Firebase API key** is hardcoded, making it a security risk if exposed.
+   - Solution: Move the API key to a secure **configuration file** or use **environment variables**.
+
+2. **Error Handling in Firebase Communication:**
+   - `send_to_firebase()` only logs the data but does not actually send it to Firebase.
+   - Solution: Use **`esp_http_client`** to properly send HTTP POST requests to Firebase.
+
+3. **UART Buffer Handling:**
+   - The UART read function does not handle **buffer overflows** or **parsing errors**.
+   - Solution: Implement **proper data parsing and validation**.
+
+4. **Wi-Fi Stability Handling:**
+   - The Wi-Fi connection is initialized, but there’s **no reconnection logic** if it disconnects.
+   - Solution: Add **Wi-Fi event handlers** for automatic reconnection.
+
+---
