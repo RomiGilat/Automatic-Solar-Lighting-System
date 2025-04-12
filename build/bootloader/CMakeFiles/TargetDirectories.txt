@@ -4,8 +4,6 @@ C:/Users/gilat/OneDrive/Desktop/esp_idf_vscode_projects/uart_echo_rs485/build/bo
 C:/Users/gilat/OneDrive/Desktop/esp_idf_vscode_projects/uart_echo_rs485/build/bootloader/CMakeFiles/gen_project_binary.dir
 C:/Users/gilat/OneDrive/Desktop/esp_idf_vscode_projects/uart_echo_rs485/build/bootloader/CMakeFiles/app.dir
 C:/Users/gilat/OneDrive/Desktop/esp_idf_vscode_projects/uart_echo_rs485/build/bootloader/CMakeFiles/erase_flash.dir
-C:/Users/gilat/OneDrive/Desktop/esp_idf_vscode_projects/uart_echo_rs485/build/bootloader/CMakeFiles/uf2.dir
-C:/Users/gilat/OneDrive/Desktop/esp_idf_vscode_projects/uart_echo_rs485/build/bootloader/CMakeFiles/uf2-app.dir
 C:/Users/gilat/OneDrive/Desktop/esp_idf_vscode_projects/uart_echo_rs485/build/bootloader/CMakeFiles/merge-bin.dir
 C:/Users/gilat/OneDrive/Desktop/esp_idf_vscode_projects/uart_echo_rs485/build/bootloader/CMakeFiles/monitor.dir
 C:/Users/gilat/OneDrive/Desktop/esp_idf_vscode_projects/uart_echo_rs485/build/bootloader/CMakeFiles/_project_elf_src.dir
@@ -13,6 +11,8 @@ C:/Users/gilat/OneDrive/Desktop/esp_idf_vscode_projects/uart_echo_rs485/build/bo
 C:/Users/gilat/OneDrive/Desktop/esp_idf_vscode_projects/uart_echo_rs485/build/bootloader/CMakeFiles/size.dir
 C:/Users/gilat/OneDrive/Desktop/esp_idf_vscode_projects/uart_echo_rs485/build/bootloader/CMakeFiles/size-files.dir
 C:/Users/gilat/OneDrive/Desktop/esp_idf_vscode_projects/uart_echo_rs485/build/bootloader/CMakeFiles/size-components.dir
+C:/Users/gilat/OneDrive/Desktop/esp_idf_vscode_projects/uart_echo_rs485/build/bootloader/CMakeFiles/uf2.dir
+C:/Users/gilat/OneDrive/Desktop/esp_idf_vscode_projects/uart_echo_rs485/build/bootloader/CMakeFiles/uf2-app.dir
 C:/Users/gilat/OneDrive/Desktop/esp_idf_vscode_projects/uart_echo_rs485/build/bootloader/CMakeFiles/edit_cache.dir
 C:/Users/gilat/OneDrive/Desktop/esp_idf_vscode_projects/uart_echo_rs485/build/bootloader/CMakeFiles/rebuild_cache.dir
 C:/Users/gilat/OneDrive/Desktop/esp_idf_vscode_projects/uart_echo_rs485/build/bootloader/esp-idf/CMakeFiles/edit_cache.dir
@@ -52,6 +52,8 @@ C:/Users/gilat/OneDrive/Desktop/esp_idf_vscode_projects/uart_echo_rs485/build/bo
 C:/Users/gilat/OneDrive/Desktop/esp_idf_vscode_projects/uart_echo_rs485/build/bootloader/esp-idf/efuse/CMakeFiles/efuse_test_table.dir
 C:/Users/gilat/OneDrive/Desktop/esp_idf_vscode_projects/uart_echo_rs485/build/bootloader/esp-idf/efuse/CMakeFiles/edit_cache.dir
 C:/Users/gilat/OneDrive/Desktop/esp_idf_vscode_projects/uart_echo_rs485/build/bootloader/esp-idf/efuse/CMakeFiles/rebuild_cache.dir
+C:/Users/gilat/OneDrive/Desktop/esp_idf_vscode_projects/uart_echo_rs485/build/bootloader/esp-idf/esp_security/CMakeFiles/edit_cache.dir
+C:/Users/gilat/OneDrive/Desktop/esp_idf_vscode_projects/uart_echo_rs485/build/bootloader/esp-idf/esp_security/CMakeFiles/rebuild_cache.dir
 C:/Users/gilat/OneDrive/Desktop/esp_idf_vscode_projects/uart_echo_rs485/build/bootloader/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir
 C:/Users/gilat/OneDrive/Desktop/esp_idf_vscode_projects/uart_echo_rs485/build/bootloader/esp-idf/esp_system/CMakeFiles/edit_cache.dir
 C:/Users/gilat/OneDrive/Desktop/esp_idf_vscode_projects/uart_echo_rs485/build/bootloader/esp-idf/esp_system/CMakeFiles/rebuild_cache.dir
