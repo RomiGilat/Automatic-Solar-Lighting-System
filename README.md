@@ -23,7 +23,6 @@ This subsystem includes the microcontrollers (PIC24 and ESP32), communication bu
 - **PIC24**:
   - Interfaces with PIR sensor(s)
   - Sends motion events over RS-485 to the ESP32
-  - Optional dual PIR handling + FIFO trigger buffering
 
 - **ESP32**:
   - Receives trigger messages
