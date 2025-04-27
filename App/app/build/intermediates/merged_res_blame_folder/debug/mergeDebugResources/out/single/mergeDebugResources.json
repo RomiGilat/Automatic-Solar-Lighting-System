@@ -1,0 +1,178 @@
+[
+    {
+        "merged": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-debug-56:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-main-58:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-debug-56:/drawable_edit_text_background.xml.flat",
+        "source": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-main-58:/drawable/edit_text_background.xml"
+    },
+    {
+        "merged": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-debug-56:/layout_activity_main.xml.flat",
+        "source": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-main-58:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-debug-56:/drawable_spinner_background.xml.flat",
+        "source": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-main-58:/drawable/spinner_background.xml"
+    },
+    {
+        "merged": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-debug-56:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-main-58:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-debug-56:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-main-58:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-debug-56:/drawable_bulb_on.png.flat",
+        "source": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-main-58:/drawable/bulb_on.png"
+    },
+    {
+        "merged": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-debug-56:/layout_item_schedule_entry.xml.flat",
+        "source": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-main-58:/layout/item_schedule_entry.xml"
+    },
+    {
+        "merged": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-debug-56:/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-main-58:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-debug-56:/drawable_ic_notifications_black_24dp.xml.flat",
+        "source": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-main-58:/drawable/ic_notifications_black_24dp.xml"
+    },
+    {
+        "merged": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-debug-56:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-main-58:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-debug-56:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-main-58:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-debug-56:/layout_activity_sign_up.xml.flat",
+        "source": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-main-58:/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-debug-56:/drawable_battery_empty.png.flat",
+        "source": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-main-58:/drawable/battery_empty.png"
+    },
+    {
+        "merged": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-debug-56:/layout_fragment_login.xml.flat",
+        "source": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-main-58:/layout/fragment_login.xml"
+    },
+    {
+        "merged": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-debug-56:/layout_activity_login.xml.flat",
+        "source": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-main-58:/layout/activity_login.xml"
+    },
+    {
+        "merged": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-debug-56:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-main-58:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-debug-56:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-main-58:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-debug-56:/navigation_mobile_navigation.xml.flat",
+        "source": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-main-58:/navigation/mobile_navigation.xml"
+    },
+    {
+        "merged": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-debug-56:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-main-58:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-debug-56:/drawable_android_app_icon.png.flat",
+        "source": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-main-58:/drawable/android_app_icon.png"
+    },
+    {
+        "merged": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-debug-56:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-main-58:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-debug-56:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-main-58:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-debug-56:/drawable_switch_off.png.flat",
+        "source": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-main-58:/drawable/switch_off.png"
+    },
+    {
+        "merged": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-debug-56:/drawable_switch_on.png.flat",
+        "source": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-main-58:/drawable/switch_on.png"
+    },
+    {
+        "merged": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-debug-56:/drawable_battery_full.png.flat",
+        "source": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-main-58:/drawable/battery_full.png"
+    },
+    {
+        "merged": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-debug-56:/layout_fragment_home.xml.flat",
+        "source": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-main-58:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-debug-56:/drawable_switch_thumb.xml.flat",
+        "source": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-main-58:/drawable/switch_thumb.xml"
+    },
+    {
+        "merged": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-debug-56:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-main-58:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-debug-56:/drawable_ic_dashboard_black_24dp.xml.flat",
+        "source": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-main-58:/drawable/ic_dashboard_black_24dp.xml"
+    },
+    {
+        "merged": "com.example.solar_bottom_view_navigation.app-debug-56:/layout_fragment_home.xml.flat",
+        "source": "com.example.solar_bottom_view_navigation.app-main-58:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-debug-56:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-main-58:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-debug-56:/drawable_ic_home_black_24dp.xml.flat",
+        "source": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-main-58:/drawable/ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-debug-56:/xml_backup_rules.xml.flat",
+        "source": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-main-58:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-debug-56:/xml_data_extraction_rules.xml.flat",
+        "source": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-main-58:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-debug-56:/layout_activity_forgot_password.xml.flat",
+        "source": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-main-58:/layout/activity_forgot_password.xml"
+    },
+    {
+        "merged": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-debug-56:/layout_fragment_notifications.xml.flat",
+        "source": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-main-58:/layout/fragment_notifications.xml"
+    },
+    {
+        "merged": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-debug-56:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-main-58:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-debug-56:/drawable_bulb_off.png.flat",
+        "source": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-main-58:/drawable/bulb_off.png"
+    },
+    {
+        "merged": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-debug-56:/drawable_sun.xml.flat",
+        "source": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-main-58:/drawable/sun.xml"
+    },
+    {
+        "merged": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-debug-56:/layout_fragment_dashboard.xml.flat",
+        "source": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-main-58:/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-debug-56:/drawable_switch_track.xml.flat",
+        "source": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-main-58:/drawable/switch_track.xml"
+    },
+    {
+        "merged": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-debug-56:/menu_bottom_nav_menu.xml.flat",
+        "source": "/home/cedar/.gradle/daemon/8.7/com.example.solar_bottom_view_navigation.app-main-58:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.example.solar_bottom_view_navigation.app-debug-56:/layout_fragment_dashboard.xml.flat",
+        "source": "com.example.solar_bottom_view_navigation.app-main-58:/layout/fragment_dashboard.xml"
+    }
+]

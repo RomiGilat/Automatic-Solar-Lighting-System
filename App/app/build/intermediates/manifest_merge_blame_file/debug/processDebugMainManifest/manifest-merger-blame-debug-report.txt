@@ -1,0 +1,426 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.solar_bottom_view_navigation"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- Permissions -->
+12    <uses-permission android:name="android.permission.BLUETOOTH" />
+12-->/home/cedar/StudioProjects/ECEN-403/app/src/main/AndroidManifest.xml:7:5-68
+12-->/home/cedar/StudioProjects/ECEN-403/app/src/main/AndroidManifest.xml:7:22-65
+13    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+13-->/home/cedar/StudioProjects/ECEN-403/app/src/main/AndroidManifest.xml:8:5-74
+13-->/home/cedar/StudioProjects/ECEN-403/app/src/main/AndroidManifest.xml:8:22-71
+14    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+14-->/home/cedar/StudioProjects/ECEN-403/app/src/main/AndroidManifest.xml:9:5-73
+14-->/home/cedar/StudioProjects/ECEN-403/app/src/main/AndroidManifest.xml:9:22-70
+15    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+15-->/home/cedar/StudioProjects/ECEN-403/app/src/main/AndroidManifest.xml:10:5-76
+15-->/home/cedar/StudioProjects/ECEN-403/app/src/main/AndroidManifest.xml:10:22-73
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->/home/cedar/StudioProjects/ECEN-403/app/src/main/AndroidManifest.xml:11:5-79
+16-->/home/cedar/StudioProjects/ECEN-403/app/src/main/AndroidManifest.xml:11:22-76
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->/home/cedar/StudioProjects/ECEN-403/app/src/main/AndroidManifest.xml:12:5-81
+17-->/home/cedar/StudioProjects/ECEN-403/app/src/main/AndroidManifest.xml:12:22-78
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->/home/cedar/StudioProjects/ECEN-403/app/src/main/AndroidManifest.xml:13:5-67
+18-->/home/cedar/StudioProjects/ECEN-403/app/src/main/AndroidManifest.xml:13:22-64
+19    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+19-->/home/cedar/StudioProjects/ECEN-403/app/src/main/AndroidManifest.xml:14:5-77
+19-->/home/cedar/StudioProjects/ECEN-403/app/src/main/AndroidManifest.xml:14:22-74
+20    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+20-->/home/cedar/StudioProjects/ECEN-403/app/src/main/AndroidManifest.xml:15:5-87
+20-->/home/cedar/StudioProjects/ECEN-403/app/src/main/AndroidManifest.xml:15:22-84
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->[com.google.firebase:firebase-auth:23.0.0] /home/cedar/.gradle/caches/transforms-4/f54a73b52518bf5b7e3d8b3cede30b05/transformed/firebase-auth-23.0.0/AndroidManifest.xml:26:5-79
+21-->[com.google.firebase:firebase-auth:23.0.0] /home/cedar/.gradle/caches/transforms-4/f54a73b52518bf5b7e3d8b3cede30b05/transformed/firebase-auth-23.0.0/AndroidManifest.xml:26:22-76
+22    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+22-->[com.google.android.recaptcha:recaptcha:18.4.0] /home/cedar/.gradle/caches/transforms-4/0066d578fcd3184d249f839d254e8283/transformed/recaptcha-18.4.0/AndroidManifest.xml:9:5-98
+22-->[com.google.android.recaptcha:recaptcha:18.4.0] /home/cedar/.gradle/caches/transforms-4/0066d578fcd3184d249f839d254e8283/transformed/recaptcha-18.4.0/AndroidManifest.xml:9:22-95
+23
+24    <permission
+24-->[androidx.core:core:1.13.1] /home/cedar/.gradle/caches/transforms-4/6725d16617a346e233803c3ea4808e44/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+25        android:name="com.example.solar_bottom_view_navigation.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+25-->[androidx.core:core:1.13.1] /home/cedar/.gradle/caches/transforms-4/6725d16617a346e233803c3ea4808e44/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+26        android:protectionLevel="signature" />
+26-->[androidx.core:core:1.13.1] /home/cedar/.gradle/caches/transforms-4/6725d16617a346e233803c3ea4808e44/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+27
+28    <uses-permission android:name="com.example.solar_bottom_view_navigation.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+28-->[androidx.core:core:1.13.1] /home/cedar/.gradle/caches/transforms-4/6725d16617a346e233803c3ea4808e44/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+28-->[androidx.core:core:1.13.1] /home/cedar/.gradle/caches/transforms-4/6725d16617a346e233803c3ea4808e44/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+29
+30    <application
+30-->/home/cedar/StudioProjects/ECEN-403/app/src/main/AndroidManifest.xml:17:5-50:19
+31        android:allowBackup="true"
+31-->/home/cedar/StudioProjects/ECEN-403/app/src/main/AndroidManifest.xml:18:9-35
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.13.1] /home/cedar/.gradle/caches/transforms-4/6725d16617a346e233803c3ea4808e44/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+33        android:dataExtractionRules="@xml/data_extraction_rules"
+33-->/home/cedar/StudioProjects/ECEN-403/app/src/main/AndroidManifest.xml:19:9-65
+34        android:debuggable="true"
+35        android:extractNativeLibs="false"
+36        android:fullBackupContent="@xml/backup_rules"
+36-->/home/cedar/StudioProjects/ECEN-403/app/src/main/AndroidManifest.xml:20:9-54
+37        android:icon="@drawable/android_app_icon"
+37-->/home/cedar/StudioProjects/ECEN-403/app/src/main/AndroidManifest.xml:21:9-50
+38        android:label="@string/app_name"
+38-->/home/cedar/StudioProjects/ECEN-403/app/src/main/AndroidManifest.xml:22:9-41
+39        android:roundIcon="@mipmap/ic_launcher_round"
+39-->/home/cedar/StudioProjects/ECEN-403/app/src/main/AndroidManifest.xml:23:9-54
+40        android:supportsRtl="true"
+40-->/home/cedar/StudioProjects/ECEN-403/app/src/main/AndroidManifest.xml:24:9-35
+41        android:testOnly="true"
+42        android:theme="@style/AppTheme" >
+42-->/home/cedar/StudioProjects/ECEN-403/app/src/main/AndroidManifest.xml:25:9-40
+43
+44        <!-- Schedule Service -->
+45        <service
+45-->/home/cedar/StudioProjects/ECEN-403/app/src/main/AndroidManifest.xml:29:9-31:56
+46            android:name="com.example.solar_bottom_view_navigation.ScheduleService"
+46-->/home/cedar/StudioProjects/ECEN-403/app/src/main/AndroidManifest.xml:30:13-44
+47            android:foregroundServiceType="dataSync" />
+47-->/home/cedar/StudioProjects/ECEN-403/app/src/main/AndroidManifest.xml:31:13-53
+48
+49        <meta-data
+49-->/home/cedar/StudioProjects/ECEN-403/app/src/main/AndroidManifest.xml:33:9-35:76
+50            android:name="com.google.android.gms.client_id"
+50-->/home/cedar/StudioProjects/ECEN-403/app/src/main/AndroidManifest.xml:34:13-60
+51            android:value="solar-control-app.apps.googleusercontent.com" />
+51-->/home/cedar/StudioProjects/ECEN-403/app/src/main/AndroidManifest.xml:35:13-73
+52
+53        <!-- Activities -->
+54        <activity
+54-->/home/cedar/StudioProjects/ECEN-403/app/src/main/AndroidManifest.xml:38:9-46:20
+55            android:name="com.example.solar_bottom_view_navigation.LoginActivity"
+55-->/home/cedar/StudioProjects/ECEN-403/app/src/main/AndroidManifest.xml:39:13-42
+56            android:exported="true"
+56-->/home/cedar/StudioProjects/ECEN-403/app/src/main/AndroidManifest.xml:40:13-36
+57            android:label="@string/app_name" >
+57-->/home/cedar/StudioProjects/ECEN-403/app/src/main/AndroidManifest.xml:41:13-45
+58            <intent-filter>
+58-->/home/cedar/StudioProjects/ECEN-403/app/src/main/AndroidManifest.xml:42:13-45:29
+59                <action android:name="android.intent.action.MAIN" />
+59-->/home/cedar/StudioProjects/ECEN-403/app/src/main/AndroidManifest.xml:43:17-69
+59-->/home/cedar/StudioProjects/ECEN-403/app/src/main/AndroidManifest.xml:43:25-66
+60
+61                <category android:name="android.intent.category.LAUNCHER" />
+61-->/home/cedar/StudioProjects/ECEN-403/app/src/main/AndroidManifest.xml:44:17-77
+61-->/home/cedar/StudioProjects/ECEN-403/app/src/main/AndroidManifest.xml:44:27-74
+62            </intent-filter>
+63        </activity>
+64        <activity android:name="com.example.solar_bottom_view_navigation.SignUpActivity" />
+64-->/home/cedar/StudioProjects/ECEN-403/app/src/main/AndroidManifest.xml:47:9-52
+64-->/home/cedar/StudioProjects/ECEN-403/app/src/main/AndroidManifest.xml:47:19-49
+65        <activity android:name="com.example.solar_bottom_view_navigation.ForgotPasswordActivity" />
+65-->/home/cedar/StudioProjects/ECEN-403/app/src/main/AndroidManifest.xml:48:9-60
+65-->/home/cedar/StudioProjects/ECEN-403/app/src/main/AndroidManifest.xml:48:19-57
+66        <activity android:name="com.example.solar_bottom_view_navigation.MainActivity" />
+66-->/home/cedar/StudioProjects/ECEN-403/app/src/main/AndroidManifest.xml:49:9-50
+66-->/home/cedar/StudioProjects/ECEN-403/app/src/main/AndroidManifest.xml:49:19-47
+67
+68        <service
+68-->[com.google.firebase:firebase-firestore-ktx:25.1.0] /home/cedar/.gradle/caches/transforms-4/bc18f75f3c1c4531fa60293694c40c77/transformed/firebase-firestore-ktx-25.1.0/AndroidManifest.xml:9:9-15:19
+69            android:name="com.google.firebase.components.ComponentDiscoveryService"
+69-->[com.google.firebase:firebase-firestore-ktx:25.1.0] /home/cedar/.gradle/caches/transforms-4/bc18f75f3c1c4531fa60293694c40c77/transformed/firebase-firestore-ktx-25.1.0/AndroidManifest.xml:10:13-84
+70            android:directBootAware="true"
+70-->[com.google.firebase:firebase-common:21.0.0] /home/cedar/.gradle/caches/transforms-4/32f8b64724cbaee57d5dffe0e7b9c38c/transformed/firebase-common-21.0.0/AndroidManifest.xml:32:13-43
+71            android:exported="false" >
+71-->[com.google.firebase:firebase-firestore-ktx:25.1.0] /home/cedar/.gradle/caches/transforms-4/bc18f75f3c1c4531fa60293694c40c77/transformed/firebase-firestore-ktx-25.1.0/AndroidManifest.xml:11:13-37
+72            <meta-data
+72-->[com.google.firebase:firebase-firestore-ktx:25.1.0] /home/cedar/.gradle/caches/transforms-4/bc18f75f3c1c4531fa60293694c40c77/transformed/firebase-firestore-ktx-25.1.0/AndroidManifest.xml:12:13-14:85
+73                android:name="com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreLegacyRegistrar"
+73-->[com.google.firebase:firebase-firestore-ktx:25.1.0] /home/cedar/.gradle/caches/transforms-4/bc18f75f3c1c4531fa60293694c40c77/transformed/firebase-firestore-ktx-25.1.0/AndroidManifest.xml:13:17-129
+74                android:value="com.google.firebase.components.ComponentRegistrar" />
+74-->[com.google.firebase:firebase-firestore-ktx:25.1.0] /home/cedar/.gradle/caches/transforms-4/bc18f75f3c1c4531fa60293694c40c77/transformed/firebase-firestore-ktx-25.1.0/AndroidManifest.xml:14:17-82
+75            <meta-data
+75-->[com.google.firebase:firebase-auth-ktx:23.0.0] /home/cedar/.gradle/caches/transforms-4/6f9a6e02e345665f240de83ba3303198/transformed/firebase-auth-ktx-23.0.0/AndroidManifest.xml:11:13-13:85
+76                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthLegacyRegistrar"
+76-->[com.google.firebase:firebase-auth-ktx:23.0.0] /home/cedar/.gradle/caches/transforms-4/6f9a6e02e345665f240de83ba3303198/transformed/firebase-auth-ktx-23.0.0/AndroidManifest.xml:12:17-119
+77                android:value="com.google.firebase.components.ComponentRegistrar" />
+77-->[com.google.firebase:firebase-auth-ktx:23.0.0] /home/cedar/.gradle/caches/transforms-4/6f9a6e02e345665f240de83ba3303198/transformed/firebase-auth-ktx-23.0.0/AndroidManifest.xml:13:17-82
+78            <meta-data
+78-->[com.google.firebase:firebase-auth:23.0.0] /home/cedar/.gradle/caches/transforms-4/f54a73b52518bf5b7e3d8b3cede30b05/transformed/firebase-auth-23.0.0/AndroidManifest.xml:69:13-71:85
+79                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+79-->[com.google.firebase:firebase-auth:23.0.0] /home/cedar/.gradle/caches/transforms-4/f54a73b52518bf5b7e3d8b3cede30b05/transformed/firebase-auth-23.0.0/AndroidManifest.xml:70:17-109
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[com.google.firebase:firebase-auth:23.0.0] /home/cedar/.gradle/caches/transforms-4/f54a73b52518bf5b7e3d8b3cede30b05/transformed/firebase-auth-23.0.0/AndroidManifest.xml:71:17-82
+81            <meta-data
+81-->[com.google.firebase:firebase-database:21.0.0] /home/cedar/.gradle/caches/transforms-4/ff514afe37de0b7d3832eb2380b0e251/transformed/firebase-database-21.0.0/AndroidManifest.xml:29:13-31:85
+82                android:name="com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar"
+82-->[com.google.firebase:firebase-database:21.0.0] /home/cedar/.gradle/caches/transforms-4/ff514afe37de0b7d3832eb2380b0e251/transformed/firebase-database-21.0.0/AndroidManifest.xml:30:17-120
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[com.google.firebase:firebase-database:21.0.0] /home/cedar/.gradle/caches/transforms-4/ff514afe37de0b7d3832eb2380b0e251/transformed/firebase-database-21.0.0/AndroidManifest.xml:31:17-82
+84            <meta-data
+84-->[com.google.firebase:firebase-database:21.0.0] /home/cedar/.gradle/caches/transforms-4/ff514afe37de0b7d3832eb2380b0e251/transformed/firebase-database-21.0.0/AndroidManifest.xml:32:13-34:85
+85                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+85-->[com.google.firebase:firebase-database:21.0.0] /home/cedar/.gradle/caches/transforms-4/ff514afe37de0b7d3832eb2380b0e251/transformed/firebase-database-21.0.0/AndroidManifest.xml:33:17-109
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[com.google.firebase:firebase-database:21.0.0] /home/cedar/.gradle/caches/transforms-4/ff514afe37de0b7d3832eb2380b0e251/transformed/firebase-database-21.0.0/AndroidManifest.xml:34:17-82
+87            <meta-data
+87-->[com.google.firebase:firebase-firestore:25.1.0] /home/cedar/.gradle/caches/transforms-4/21671645353b09cf34662bee96353970/transformed/firebase-firestore-25.1.0/AndroidManifest.xml:17:13-19:85
+88                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+88-->[com.google.firebase:firebase-firestore:25.1.0] /home/cedar/.gradle/caches/transforms-4/21671645353b09cf34662bee96353970/transformed/firebase-firestore-25.1.0/AndroidManifest.xml:18:17-122
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[com.google.firebase:firebase-firestore:25.1.0] /home/cedar/.gradle/caches/transforms-4/21671645353b09cf34662bee96353970/transformed/firebase-firestore-25.1.0/AndroidManifest.xml:19:17-82
+90            <meta-data
+90-->[com.google.firebase:firebase-firestore:25.1.0] /home/cedar/.gradle/caches/transforms-4/21671645353b09cf34662bee96353970/transformed/firebase-firestore-25.1.0/AndroidManifest.xml:20:13-22:85
+91                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+91-->[com.google.firebase:firebase-firestore:25.1.0] /home/cedar/.gradle/caches/transforms-4/21671645353b09cf34662bee96353970/transformed/firebase-firestore-25.1.0/AndroidManifest.xml:21:17-111
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[com.google.firebase:firebase-firestore:25.1.0] /home/cedar/.gradle/caches/transforms-4/21671645353b09cf34662bee96353970/transformed/firebase-firestore-25.1.0/AndroidManifest.xml:22:17-82
+93            <meta-data
+93-->[com.google.firebase:firebase-common-ktx:21.0.0] /home/cedar/.gradle/caches/transforms-4/bd0821251a2c0bb2c2bc1ae9dab123b6/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:12:13-14:85
+94                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+94-->[com.google.firebase:firebase-common-ktx:21.0.0] /home/cedar/.gradle/caches/transforms-4/bd0821251a2c0bb2c2bc1ae9dab123b6/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:13:17-116
+95                android:value="com.google.firebase.components.ComponentRegistrar" />
+95-->[com.google.firebase:firebase-common-ktx:21.0.0] /home/cedar/.gradle/caches/transforms-4/bd0821251a2c0bb2c2bc1ae9dab123b6/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:14:17-82
+96            <meta-data
+96-->[com.google.firebase:firebase-common:21.0.0] /home/cedar/.gradle/caches/transforms-4/32f8b64724cbaee57d5dffe0e7b9c38c/transformed/firebase-common-21.0.0/AndroidManifest.xml:35:13-37:85
+97                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+97-->[com.google.firebase:firebase-common:21.0.0] /home/cedar/.gradle/caches/transforms-4/32f8b64724cbaee57d5dffe0e7b9c38c/transformed/firebase-common-21.0.0/AndroidManifest.xml:36:17-109
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[com.google.firebase:firebase-common:21.0.0] /home/cedar/.gradle/caches/transforms-4/32f8b64724cbaee57d5dffe0e7b9c38c/transformed/firebase-common-21.0.0/AndroidManifest.xml:37:17-82
+99        </service>
+100
+101        <provider
+101-->[androidx.emoji2:emoji2:1.2.0] /home/cedar/.gradle/caches/transforms-4/f3951905d0931c4123b9eb0cac8e1383/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+102            android:name="androidx.startup.InitializationProvider"
+102-->[androidx.emoji2:emoji2:1.2.0] /home/cedar/.gradle/caches/transforms-4/f3951905d0931c4123b9eb0cac8e1383/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+103            android:authorities="com.example.solar_bottom_view_navigation.androidx-startup"
+103-->[androidx.emoji2:emoji2:1.2.0] /home/cedar/.gradle/caches/transforms-4/f3951905d0931c4123b9eb0cac8e1383/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+104            android:exported="false" >
+104-->[androidx.emoji2:emoji2:1.2.0] /home/cedar/.gradle/caches/transforms-4/f3951905d0931c4123b9eb0cac8e1383/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+105            <meta-data
+105-->[androidx.emoji2:emoji2:1.2.0] /home/cedar/.gradle/caches/transforms-4/f3951905d0931c4123b9eb0cac8e1383/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+106                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+106-->[androidx.emoji2:emoji2:1.2.0] /home/cedar/.gradle/caches/transforms-4/f3951905d0931c4123b9eb0cac8e1383/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+107                android:value="androidx.startup" />
+107-->[androidx.emoji2:emoji2:1.2.0] /home/cedar/.gradle/caches/transforms-4/f3951905d0931c4123b9eb0cac8e1383/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+108            <meta-data
+108-->[androidx.lifecycle:lifecycle-process:2.8.4] /home/cedar/.gradle/caches/transforms-4/ac869a17e977200d9ed4d19965a7f012/transformed/lifecycle-process-2.8.4/AndroidManifest.xml:29:13-31:52
+109                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+109-->[androidx.lifecycle:lifecycle-process:2.8.4] /home/cedar/.gradle/caches/transforms-4/ac869a17e977200d9ed4d19965a7f012/transformed/lifecycle-process-2.8.4/AndroidManifest.xml:30:17-78
+110                android:value="androidx.startup" />
+110-->[androidx.lifecycle:lifecycle-process:2.8.4] /home/cedar/.gradle/caches/transforms-4/ac869a17e977200d9ed4d19965a7f012/transformed/lifecycle-process-2.8.4/AndroidManifest.xml:31:17-49
+111            <meta-data
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cedar/.gradle/caches/transforms-4/12bc5d00d26d4ca569d0ff1fdfce4bdc/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+112                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cedar/.gradle/caches/transforms-4/12bc5d00d26d4ca569d0ff1fdfce4bdc/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+113                android:value="androidx.startup" />
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cedar/.gradle/caches/transforms-4/12bc5d00d26d4ca569d0ff1fdfce4bdc/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+114        </provider>
+115
+116        <activity
+116-->[com.google.firebase:firebase-auth:23.0.0] /home/cedar/.gradle/caches/transforms-4/f54a73b52518bf5b7e3d8b3cede30b05/transformed/firebase-auth-23.0.0/AndroidManifest.xml:29:9-46:20
+117            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+117-->[com.google.firebase:firebase-auth:23.0.0] /home/cedar/.gradle/caches/transforms-4/f54a73b52518bf5b7e3d8b3cede30b05/transformed/firebase-auth-23.0.0/AndroidManifest.xml:30:13-80
+118            android:excludeFromRecents="true"
+118-->[com.google.firebase:firebase-auth:23.0.0] /home/cedar/.gradle/caches/transforms-4/f54a73b52518bf5b7e3d8b3cede30b05/transformed/firebase-auth-23.0.0/AndroidManifest.xml:31:13-46
+119            android:exported="true"
+119-->[com.google.firebase:firebase-auth:23.0.0] /home/cedar/.gradle/caches/transforms-4/f54a73b52518bf5b7e3d8b3cede30b05/transformed/firebase-auth-23.0.0/AndroidManifest.xml:32:13-36
+120            android:launchMode="singleTask"
+120-->[com.google.firebase:firebase-auth:23.0.0] /home/cedar/.gradle/caches/transforms-4/f54a73b52518bf5b7e3d8b3cede30b05/transformed/firebase-auth-23.0.0/AndroidManifest.xml:33:13-44
+121            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+121-->[com.google.firebase:firebase-auth:23.0.0] /home/cedar/.gradle/caches/transforms-4/f54a73b52518bf5b7e3d8b3cede30b05/transformed/firebase-auth-23.0.0/AndroidManifest.xml:34:13-72
+122            <intent-filter>
+122-->[com.google.firebase:firebase-auth:23.0.0] /home/cedar/.gradle/caches/transforms-4/f54a73b52518bf5b7e3d8b3cede30b05/transformed/firebase-auth-23.0.0/AndroidManifest.xml:35:13-45:29
+123                <action android:name="android.intent.action.VIEW" />
+123-->[com.google.firebase:firebase-auth:23.0.0] /home/cedar/.gradle/caches/transforms-4/f54a73b52518bf5b7e3d8b3cede30b05/transformed/firebase-auth-23.0.0/AndroidManifest.xml:36:17-69
+123-->[com.google.firebase:firebase-auth:23.0.0] /home/cedar/.gradle/caches/transforms-4/f54a73b52518bf5b7e3d8b3cede30b05/transformed/firebase-auth-23.0.0/AndroidManifest.xml:36:25-66
+124
+125                <category android:name="android.intent.category.DEFAULT" />
+125-->[com.google.firebase:firebase-auth:23.0.0] /home/cedar/.gradle/caches/transforms-4/f54a73b52518bf5b7e3d8b3cede30b05/transformed/firebase-auth-23.0.0/AndroidManifest.xml:38:17-76
+125-->[com.google.firebase:firebase-auth:23.0.0] /home/cedar/.gradle/caches/transforms-4/f54a73b52518bf5b7e3d8b3cede30b05/transformed/firebase-auth-23.0.0/AndroidManifest.xml:38:27-73
+126                <category android:name="android.intent.category.BROWSABLE" />
+126-->[com.google.firebase:firebase-auth:23.0.0] /home/cedar/.gradle/caches/transforms-4/f54a73b52518bf5b7e3d8b3cede30b05/transformed/firebase-auth-23.0.0/AndroidManifest.xml:39:17-78
+126-->[com.google.firebase:firebase-auth:23.0.0] /home/cedar/.gradle/caches/transforms-4/f54a73b52518bf5b7e3d8b3cede30b05/transformed/firebase-auth-23.0.0/AndroidManifest.xml:39:27-75
+127
+128                <data
+128-->[com.google.firebase:firebase-auth:23.0.0] /home/cedar/.gradle/caches/transforms-4/f54a73b52518bf5b7e3d8b3cede30b05/transformed/firebase-auth-23.0.0/AndroidManifest.xml:41:17-44:51
+129                    android:host="firebase.auth"
+129-->[com.google.firebase:firebase-auth:23.0.0] /home/cedar/.gradle/caches/transforms-4/f54a73b52518bf5b7e3d8b3cede30b05/transformed/firebase-auth-23.0.0/AndroidManifest.xml:42:21-49
+130                    android:path="/"
+130-->[com.google.firebase:firebase-auth:23.0.0] /home/cedar/.gradle/caches/transforms-4/f54a73b52518bf5b7e3d8b3cede30b05/transformed/firebase-auth-23.0.0/AndroidManifest.xml:43:21-37
+131                    android:scheme="genericidp" />
+131-->[com.google.firebase:firebase-auth:23.0.0] /home/cedar/.gradle/caches/transforms-4/f54a73b52518bf5b7e3d8b3cede30b05/transformed/firebase-auth-23.0.0/AndroidManifest.xml:44:21-48
+132            </intent-filter>
+133        </activity>
+134        <activity
+134-->[com.google.firebase:firebase-auth:23.0.0] /home/cedar/.gradle/caches/transforms-4/f54a73b52518bf5b7e3d8b3cede30b05/transformed/firebase-auth-23.0.0/AndroidManifest.xml:47:9-64:20
+135            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+135-->[com.google.firebase:firebase-auth:23.0.0] /home/cedar/.gradle/caches/transforms-4/f54a73b52518bf5b7e3d8b3cede30b05/transformed/firebase-auth-23.0.0/AndroidManifest.xml:48:13-79
+136            android:excludeFromRecents="true"
+136-->[com.google.firebase:firebase-auth:23.0.0] /home/cedar/.gradle/caches/transforms-4/f54a73b52518bf5b7e3d8b3cede30b05/transformed/firebase-auth-23.0.0/AndroidManifest.xml:49:13-46
+137            android:exported="true"
+137-->[com.google.firebase:firebase-auth:23.0.0] /home/cedar/.gradle/caches/transforms-4/f54a73b52518bf5b7e3d8b3cede30b05/transformed/firebase-auth-23.0.0/AndroidManifest.xml:50:13-36
+138            android:launchMode="singleTask"
+138-->[com.google.firebase:firebase-auth:23.0.0] /home/cedar/.gradle/caches/transforms-4/f54a73b52518bf5b7e3d8b3cede30b05/transformed/firebase-auth-23.0.0/AndroidManifest.xml:51:13-44
+139            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+139-->[com.google.firebase:firebase-auth:23.0.0] /home/cedar/.gradle/caches/transforms-4/f54a73b52518bf5b7e3d8b3cede30b05/transformed/firebase-auth-23.0.0/AndroidManifest.xml:52:13-72
+140            <intent-filter>
+140-->[com.google.firebase:firebase-auth:23.0.0] /home/cedar/.gradle/caches/transforms-4/f54a73b52518bf5b7e3d8b3cede30b05/transformed/firebase-auth-23.0.0/AndroidManifest.xml:53:13-63:29
+141                <action android:name="android.intent.action.VIEW" />
+141-->[com.google.firebase:firebase-auth:23.0.0] /home/cedar/.gradle/caches/transforms-4/f54a73b52518bf5b7e3d8b3cede30b05/transformed/firebase-auth-23.0.0/AndroidManifest.xml:36:17-69
+141-->[com.google.firebase:firebase-auth:23.0.0] /home/cedar/.gradle/caches/transforms-4/f54a73b52518bf5b7e3d8b3cede30b05/transformed/firebase-auth-23.0.0/AndroidManifest.xml:36:25-66
+142
+143                <category android:name="android.intent.category.DEFAULT" />
+143-->[com.google.firebase:firebase-auth:23.0.0] /home/cedar/.gradle/caches/transforms-4/f54a73b52518bf5b7e3d8b3cede30b05/transformed/firebase-auth-23.0.0/AndroidManifest.xml:38:17-76
+143-->[com.google.firebase:firebase-auth:23.0.0] /home/cedar/.gradle/caches/transforms-4/f54a73b52518bf5b7e3d8b3cede30b05/transformed/firebase-auth-23.0.0/AndroidManifest.xml:38:27-73
+144                <category android:name="android.intent.category.BROWSABLE" />
+144-->[com.google.firebase:firebase-auth:23.0.0] /home/cedar/.gradle/caches/transforms-4/f54a73b52518bf5b7e3d8b3cede30b05/transformed/firebase-auth-23.0.0/AndroidManifest.xml:39:17-78
+144-->[com.google.firebase:firebase-auth:23.0.0] /home/cedar/.gradle/caches/transforms-4/f54a73b52518bf5b7e3d8b3cede30b05/transformed/firebase-auth-23.0.0/AndroidManifest.xml:39:27-75
+145
+146                <data
+146-->[com.google.firebase:firebase-auth:23.0.0] /home/cedar/.gradle/caches/transforms-4/f54a73b52518bf5b7e3d8b3cede30b05/transformed/firebase-auth-23.0.0/AndroidManifest.xml:41:17-44:51
+147                    android:host="firebase.auth"
+147-->[com.google.firebase:firebase-auth:23.0.0] /home/cedar/.gradle/caches/transforms-4/f54a73b52518bf5b7e3d8b3cede30b05/transformed/firebase-auth-23.0.0/AndroidManifest.xml:42:21-49
+148                    android:path="/"
+148-->[com.google.firebase:firebase-auth:23.0.0] /home/cedar/.gradle/caches/transforms-4/f54a73b52518bf5b7e3d8b3cede30b05/transformed/firebase-auth-23.0.0/AndroidManifest.xml:43:21-37
+149                    android:scheme="recaptcha" />
+149-->[com.google.firebase:firebase-auth:23.0.0] /home/cedar/.gradle/caches/transforms-4/f54a73b52518bf5b7e3d8b3cede30b05/transformed/firebase-auth-23.0.0/AndroidManifest.xml:44:21-48
+150            </intent-filter>
+151        </activity>
+152
+153        <service
+153-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/cedar/.gradle/caches/transforms-4/e9f58fb5ddedcc2a9dc8adacefa89c4f/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:24:9-32:19
+154            android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder"
+154-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/cedar/.gradle/caches/transforms-4/e9f58fb5ddedcc2a9dc8adacefa89c4f/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:25:13-94
+155            android:enabled="true"
+155-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/cedar/.gradle/caches/transforms-4/e9f58fb5ddedcc2a9dc8adacefa89c4f/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:26:13-35
+156            android:exported="false" >
+156-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/cedar/.gradle/caches/transforms-4/e9f58fb5ddedcc2a9dc8adacefa89c4f/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:27:13-37
+157            <meta-data
+157-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/cedar/.gradle/caches/transforms-4/e9f58fb5ddedcc2a9dc8adacefa89c4f/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:29:13-31:104
+158                android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY"
+158-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/cedar/.gradle/caches/transforms-4/e9f58fb5ddedcc2a9dc8adacefa89c4f/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:30:17-76
+159                android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl" />
+159-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/cedar/.gradle/caches/transforms-4/e9f58fb5ddedcc2a9dc8adacefa89c4f/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:31:17-101
+160        </service>
+161
+162        <activity
+162-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/cedar/.gradle/caches/transforms-4/e9f58fb5ddedcc2a9dc8adacefa89c4f/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:34:9-41:20
+163            android:name="androidx.credentials.playservices.HiddenActivity"
+163-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/cedar/.gradle/caches/transforms-4/e9f58fb5ddedcc2a9dc8adacefa89c4f/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:35:13-76
+164            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+164-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/cedar/.gradle/caches/transforms-4/e9f58fb5ddedcc2a9dc8adacefa89c4f/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:36:13-87
+165            android:enabled="true"
+165-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/cedar/.gradle/caches/transforms-4/e9f58fb5ddedcc2a9dc8adacefa89c4f/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:37:13-35
+166            android:exported="false"
+166-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/cedar/.gradle/caches/transforms-4/e9f58fb5ddedcc2a9dc8adacefa89c4f/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:38:13-37
+167            android:fitsSystemWindows="true"
+167-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/cedar/.gradle/caches/transforms-4/e9f58fb5ddedcc2a9dc8adacefa89c4f/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:39:13-45
+168            android:theme="@style/Theme.Hidden" >
+168-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/cedar/.gradle/caches/transforms-4/e9f58fb5ddedcc2a9dc8adacefa89c4f/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:40:13-48
+169        </activity>
+170        <activity
+170-->[com.google.android.gms:play-services-auth:20.7.0] /home/cedar/.gradle/caches/transforms-4/37c01e3a96a47cf1d1cbe4563dae4535/transformed/play-services-auth-20.7.0/AndroidManifest.xml:23:9-27:75
+171            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+171-->[com.google.android.gms:play-services-auth:20.7.0] /home/cedar/.gradle/caches/transforms-4/37c01e3a96a47cf1d1cbe4563dae4535/transformed/play-services-auth-20.7.0/AndroidManifest.xml:24:13-93
+172            android:excludeFromRecents="true"
+172-->[com.google.android.gms:play-services-auth:20.7.0] /home/cedar/.gradle/caches/transforms-4/37c01e3a96a47cf1d1cbe4563dae4535/transformed/play-services-auth-20.7.0/AndroidManifest.xml:25:13-46
+173            android:exported="false"
+173-->[com.google.android.gms:play-services-auth:20.7.0] /home/cedar/.gradle/caches/transforms-4/37c01e3a96a47cf1d1cbe4563dae4535/transformed/play-services-auth-20.7.0/AndroidManifest.xml:26:13-37
+174            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+174-->[com.google.android.gms:play-services-auth:20.7.0] /home/cedar/.gradle/caches/transforms-4/37c01e3a96a47cf1d1cbe4563dae4535/transformed/play-services-auth-20.7.0/AndroidManifest.xml:27:13-72
+175        <!--
+176            Service handling Google Sign-In user revocation. For apps that do not integrate with
+177            Google Sign-In, this service will never be started.
+178        -->
+179        <service
+179-->[com.google.android.gms:play-services-auth:20.7.0] /home/cedar/.gradle/caches/transforms-4/37c01e3a96a47cf1d1cbe4563dae4535/transformed/play-services-auth-20.7.0/AndroidManifest.xml:33:9-37:51
+180            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+180-->[com.google.android.gms:play-services-auth:20.7.0] /home/cedar/.gradle/caches/transforms-4/37c01e3a96a47cf1d1cbe4563dae4535/transformed/play-services-auth-20.7.0/AndroidManifest.xml:34:13-89
+181            android:exported="true"
+181-->[com.google.android.gms:play-services-auth:20.7.0] /home/cedar/.gradle/caches/transforms-4/37c01e3a96a47cf1d1cbe4563dae4535/transformed/play-services-auth-20.7.0/AndroidManifest.xml:35:13-36
+182            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+182-->[com.google.android.gms:play-services-auth:20.7.0] /home/cedar/.gradle/caches/transforms-4/37c01e3a96a47cf1d1cbe4563dae4535/transformed/play-services-auth-20.7.0/AndroidManifest.xml:36:13-107
+183            android:visibleToInstantApps="true" />
+183-->[com.google.android.gms:play-services-auth:20.7.0] /home/cedar/.gradle/caches/transforms-4/37c01e3a96a47cf1d1cbe4563dae4535/transformed/play-services-auth-20.7.0/AndroidManifest.xml:37:13-48
+184
+185        <provider
+185-->[com.google.firebase:firebase-common:21.0.0] /home/cedar/.gradle/caches/transforms-4/32f8b64724cbaee57d5dffe0e7b9c38c/transformed/firebase-common-21.0.0/AndroidManifest.xml:23:9-28:39
+186            android:name="com.google.firebase.provider.FirebaseInitProvider"
+186-->[com.google.firebase:firebase-common:21.0.0] /home/cedar/.gradle/caches/transforms-4/32f8b64724cbaee57d5dffe0e7b9c38c/transformed/firebase-common-21.0.0/AndroidManifest.xml:24:13-77
+187            android:authorities="com.example.solar_bottom_view_navigation.firebaseinitprovider"
+187-->[com.google.firebase:firebase-common:21.0.0] /home/cedar/.gradle/caches/transforms-4/32f8b64724cbaee57d5dffe0e7b9c38c/transformed/firebase-common-21.0.0/AndroidManifest.xml:25:13-72
+188            android:directBootAware="true"
+188-->[com.google.firebase:firebase-common:21.0.0] /home/cedar/.gradle/caches/transforms-4/32f8b64724cbaee57d5dffe0e7b9c38c/transformed/firebase-common-21.0.0/AndroidManifest.xml:26:13-43
+189            android:exported="false"
+189-->[com.google.firebase:firebase-common:21.0.0] /home/cedar/.gradle/caches/transforms-4/32f8b64724cbaee57d5dffe0e7b9c38c/transformed/firebase-common-21.0.0/AndroidManifest.xml:27:13-37
+190            android:initOrder="100" />
+190-->[com.google.firebase:firebase-common:21.0.0] /home/cedar/.gradle/caches/transforms-4/32f8b64724cbaee57d5dffe0e7b9c38c/transformed/firebase-common-21.0.0/AndroidManifest.xml:28:13-36
+191
+192        <activity
+192-->[com.google.android.gms:play-services-base:18.1.0] /home/cedar/.gradle/caches/transforms-4/13130ccfbc4921bda92be5fc9c6777bc/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+193            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+193-->[com.google.android.gms:play-services-base:18.1.0] /home/cedar/.gradle/caches/transforms-4/13130ccfbc4921bda92be5fc9c6777bc/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+194            android:exported="false"
+194-->[com.google.android.gms:play-services-base:18.1.0] /home/cedar/.gradle/caches/transforms-4/13130ccfbc4921bda92be5fc9c6777bc/transformed/play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+195            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+195-->[com.google.android.gms:play-services-base:18.1.0] /home/cedar/.gradle/caches/transforms-4/13130ccfbc4921bda92be5fc9c6777bc/transformed/play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+196
+197        <uses-library
+197-->[androidx.window:window:1.0.0] /home/cedar/.gradle/caches/transforms-4/09ca144d86b7a9dc8f6395ec6bcf6bdb/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+198            android:name="androidx.window.extensions"
+198-->[androidx.window:window:1.0.0] /home/cedar/.gradle/caches/transforms-4/09ca144d86b7a9dc8f6395ec6bcf6bdb/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+199            android:required="false" />
+199-->[androidx.window:window:1.0.0] /home/cedar/.gradle/caches/transforms-4/09ca144d86b7a9dc8f6395ec6bcf6bdb/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+200        <uses-library
+200-->[androidx.window:window:1.0.0] /home/cedar/.gradle/caches/transforms-4/09ca144d86b7a9dc8f6395ec6bcf6bdb/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+201            android:name="androidx.window.sidecar"
+201-->[androidx.window:window:1.0.0] /home/cedar/.gradle/caches/transforms-4/09ca144d86b7a9dc8f6395ec6bcf6bdb/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+202            android:required="false" />
+202-->[androidx.window:window:1.0.0] /home/cedar/.gradle/caches/transforms-4/09ca144d86b7a9dc8f6395ec6bcf6bdb/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+203
+204        <meta-data
+204-->[com.google.android.gms:play-services-basement:18.3.0] /home/cedar/.gradle/caches/transforms-4/b0d6f0f238fc09c2ead17134d6e0d1eb/transformed/play-services-basement-18.3.0/AndroidManifest.xml:21:9-23:69
+205            android:name="com.google.android.gms.version"
+205-->[com.google.android.gms:play-services-basement:18.3.0] /home/cedar/.gradle/caches/transforms-4/b0d6f0f238fc09c2ead17134d6e0d1eb/transformed/play-services-basement-18.3.0/AndroidManifest.xml:22:13-58
+206            android:value="@integer/google_play_services_version" />
+206-->[com.google.android.gms:play-services-basement:18.3.0] /home/cedar/.gradle/caches/transforms-4/b0d6f0f238fc09c2ead17134d6e0d1eb/transformed/play-services-basement-18.3.0/AndroidManifest.xml:23:13-66
+207
+208        <receiver
+208-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cedar/.gradle/caches/transforms-4/12bc5d00d26d4ca569d0ff1fdfce4bdc/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+209            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+209-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cedar/.gradle/caches/transforms-4/12bc5d00d26d4ca569d0ff1fdfce4bdc/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+210            android:directBootAware="false"
+210-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cedar/.gradle/caches/transforms-4/12bc5d00d26d4ca569d0ff1fdfce4bdc/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+211            android:enabled="true"
+211-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cedar/.gradle/caches/transforms-4/12bc5d00d26d4ca569d0ff1fdfce4bdc/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+212            android:exported="true"
+212-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cedar/.gradle/caches/transforms-4/12bc5d00d26d4ca569d0ff1fdfce4bdc/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+213            android:permission="android.permission.DUMP" >
+213-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cedar/.gradle/caches/transforms-4/12bc5d00d26d4ca569d0ff1fdfce4bdc/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+214            <intent-filter>
+214-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cedar/.gradle/caches/transforms-4/12bc5d00d26d4ca569d0ff1fdfce4bdc/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+215                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+215-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cedar/.gradle/caches/transforms-4/12bc5d00d26d4ca569d0ff1fdfce4bdc/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+215-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cedar/.gradle/caches/transforms-4/12bc5d00d26d4ca569d0ff1fdfce4bdc/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+216            </intent-filter>
+217            <intent-filter>
+217-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cedar/.gradle/caches/transforms-4/12bc5d00d26d4ca569d0ff1fdfce4bdc/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+218                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+218-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cedar/.gradle/caches/transforms-4/12bc5d00d26d4ca569d0ff1fdfce4bdc/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+218-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cedar/.gradle/caches/transforms-4/12bc5d00d26d4ca569d0ff1fdfce4bdc/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+219            </intent-filter>
+220            <intent-filter>
+220-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cedar/.gradle/caches/transforms-4/12bc5d00d26d4ca569d0ff1fdfce4bdc/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+221                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+221-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cedar/.gradle/caches/transforms-4/12bc5d00d26d4ca569d0ff1fdfce4bdc/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+221-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cedar/.gradle/caches/transforms-4/12bc5d00d26d4ca569d0ff1fdfce4bdc/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+222            </intent-filter>
+223            <intent-filter>
+223-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cedar/.gradle/caches/transforms-4/12bc5d00d26d4ca569d0ff1fdfce4bdc/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+224                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+224-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cedar/.gradle/caches/transforms-4/12bc5d00d26d4ca569d0ff1fdfce4bdc/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+224-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cedar/.gradle/caches/transforms-4/12bc5d00d26d4ca569d0ff1fdfce4bdc/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+225            </intent-filter>
+226        </receiver>
+227    </application>
+228
+229</manifest>

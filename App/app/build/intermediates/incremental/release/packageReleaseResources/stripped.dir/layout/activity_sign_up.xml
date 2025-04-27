@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@color/baby_blue">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Your Account"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_marginBottom="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="32dp" />
+
+    <!-- First Name Input -->
+    <EditText
+        android:id="@+id/firstNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        android:textColorHint="@color/white"
+        android:inputType="textPersonName"
+        android:layout_below="@id/titleTextView"
+        android:layout_marginTop="16dp" />
+
+    <!-- Last Name Input -->
+    <EditText
+        android:id="@+id/lastNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last Name"
+        android:textColorHint="@color/white"
+        android:inputType="textPersonName"
+        android:layout_below="@id/firstNameEditText"
+        android:layout_marginTop="8dp" />
+
+
+    <!-- Email Input -->
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textColorHint="@color/white"
+        android:inputType="textEmailAddress"
+        android:layout_below="@id/lastNameEditText"
+        android:layout_marginTop="16dp" />
+
+    <!-- Password Input -->
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColorHint="@color/white"
+        android:inputType="textPassword"
+        android:layout_below="@id/emailEditText"
+        android:layout_marginTop="8dp"
+        android:paddingEnd="50dp" /> <!-- Added padding to prevent overlap -->
+
+    <!-- Password Visibility Toggle Button -->
+    <Button
+        android:id="@+id/passwordToggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🔒"
+    android:background="@android:color/transparent"
+    android:textSize="18sp"
+    android:layout_alignParentEnd="true"
+    android:layout_marginEnd="8dp"
+    android:layout_alignBaseline="@id/passwordEditText" />
+
+    <!-- Password Requirements -->
+    <TextView
+        android:id="@+id/passwordRequirementsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password must be at least 8 characters, contain a number and a special character."
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:layout_below="@id/passwordEditText"
+        android:layout_marginTop="8dp" />
+
+    <!-- Sign Up Button -->
+    <Button
+        android:id="@+id/signUpButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:layout_below="@id/passwordRequirementsTextView"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/green_200" />
+
+    <!-- Already Have Account Text -->
+    <TextView
+        android:id="@+id/loginRedirectText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account? Login"
+        android:textColor="@color/teal_700"
+        android:layout_below="@id/signUpButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold" />
+</RelativeLayout>
