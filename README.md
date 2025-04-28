@@ -5,7 +5,7 @@ The Automatic Solar Lighting System is a smart, low-power outdoor lighting solut
 ## Key Features
 
 - Motion-activated lighting via PIR sensors
-- Ambient light-based logic with VEML7700 (optional)
+- Ambient light-based logic with VEML7700 
 - Solar-powered system with real-time voltage/current monitoring
 - Power-efficient FreeRTOS logic with intelligent cooldown timers
 - Firebase integration for remote event logging and control
