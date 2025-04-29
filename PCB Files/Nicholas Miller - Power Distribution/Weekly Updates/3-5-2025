@@ -1,0 +1,10 @@
+Tasks Completed This Week
+  - Procured solution for burnt LED in modified sine wave inverter
+  - Continuing to iron out minor issues with subsystem
+
+Current Problems
+  - Minor issues with modified sine wave inverter (will be adding flyback diode)
+
+Tasks To Be Completed Until The Next Week
+  - Integrate with power generation and controller & sensors
+  - Test battery with Eload and in different conditions
