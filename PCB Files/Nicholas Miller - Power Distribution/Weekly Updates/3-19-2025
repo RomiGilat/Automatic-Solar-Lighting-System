@@ -1,0 +1,11 @@
+Tasks Completed This Week
+  - Fully integrated with power generation
+  - Partially integrated with MCU & sensors
+  - Fixed modified sine wave inverter and verified functionality
+
+Current Problems
+  - Correcting critical voltage drop from buck converter when connected to MCU & sensors
+
+Tasks To Be Achieved Until The Next Week
+  - Fix voltage drop when connecting to MCU & sensors
+  - Complete full integration with MCU & sensors
