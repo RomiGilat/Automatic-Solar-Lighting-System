@@ -1,1 +1,3 @@
 #Buck Converter Overview
+
+The Buck Converter that has been designed and manufactured for the Automatic Solar Lighting System has been tested and validated to be able to take in 12V, 5aH battery capacity and step it down to 3.3V within an operating current range of 125mA to 500mA. The Buck Converter features an ADP1853 Buck Controller which efficiently steps down the voltage from the battery so that the MCU & Sensors, as well as the SPI Controlled Relay Driver and other components within the system can use the 3.3V.
