@@ -1,0 +1,42 @@
+These values were obtained by running an LTspice simulation with different load resistances to obtain the output voltage and output current within the range of 125mA to 500mA
+
+Load Resistance [Ω]
+Actual Voltage
+Actual Current
+
+6.6
+3.3175583V
+502.66031mA
+
+7.333
+3.3145122V
+451.97893mA
+
+8.25
+3.319573V
+402.37247mA
+
+9.428
+3.3199638V
+352.11738mA
+
+11
+3.3201574V
+301.83249mA
+
+13.2
+3.3198456V
+251.50346mA
+
+16.5
+3.3171831V
+201.04141mA
+
+22
+3.3196393V
+150.8927mA
+
+26.4
+3.3188718V
+125.71485mA
+
