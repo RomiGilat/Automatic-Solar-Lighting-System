@@ -1,0 +1,2 @@
+The Modified Sine Wave Inverter was tested by connecting to the 12V, 5aH battery and using 3.3V, 25mA logic to trigger the relay switch.
+The Inverter was tested with a 40W, a 60W, and a 100W LED light bulb that are standard for todays homeowners. Once the relay switch was triggered, each bulb was illuminated and almost no oscillations or humming was noted.
