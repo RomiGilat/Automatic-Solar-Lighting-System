@@ -64,12 +64,14 @@ Handles energy harvesting and charging.
 
 Regulates and monitors power delivery to system components.
 
-[ Li-ion Battery ] ↓ [ MT3608 Boost Converter ] ↓ ↘ [ 5V Rail ] [ INA260 Current/Voltage Sensor ] | Logs power to Firebase through MCU
+[ Lead-Acid Battery ] ↓ [ ADP1853 Buck Controller Buck Converter ] ↓ ↘ [ 3.3V Rail ] [ INA260 Current/Voltage Sensor ] | Logs power to Firebase through MCU
 
 
 
 - INA260 measures system power usage and uploads data periodically
-- Boost converter provides stable 5V to ESP32 and peripherals
+- Buck converter provides stable 3.3V to ESP32 and peripherals
+- Modified Sine Wave Inverter provides 220VAC to operate LED Lights 40W/60W/100W
+- SPI Controlled Relay Driver communicates between the ESP32 and Modified Sine Wave Inverter to operate relay switches depending on sensor trigger or user override
 
 ---
 
