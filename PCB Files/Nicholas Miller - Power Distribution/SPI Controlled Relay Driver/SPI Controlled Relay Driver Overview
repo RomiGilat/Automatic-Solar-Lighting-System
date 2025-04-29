@@ -1,0 +1,3 @@
+#SPI Controlled Relay Driver
+
+The last portion of the power distribution subsystem consisted of an SPI Controlled Relay Driver. This component was not included in any prior documentation as this was a component that was designed and manufactured while completing a full system integration to ensure that the relay switches could be operated by the ESP32. The SPI Controlled Relay Driver consists of an MCP23S17 microchip that functions as a 16 bit Input/Output expander. This microchip is connected to power by the Buck Converter and is operated by the ESP32 via SPI control. It is connected to the ESP32’s CS, CLK, MISO, and MOSI SPI pins, where the ESP32 is able to directly send the power from the Buck Converter through the microchip and to each of the relays independently.
