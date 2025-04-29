@@ -1,11 +1,11 @@
 Tasks Completed This Week
-  Over the winter break/start of this week I spent roughly 36 hours correcting issues with my subsystem that were noted at the end of 403. Since then I have redesigned both the Buck Converter and the Inverter and reordered parts to successfully build operating parts. Additionally I have also been contributing to our Implementation checklist and narrowing down our idea for implementing and presenting.
+  - Over the winter break/start of this week I spent roughly 36 hours correcting issues with my subsystem that were noted at the end of 403. Since then I have redesigned both the Buck Converter and the Inverter and reordered parts to successfully build operating parts. Additionally I have also been contributing to our Implementation checklist and narrowing down our idea for implementing and presenting
 
 Current Problems
-  None.
+  - None
 
 Tasks To Be Achieved Until The Next Week
-  Successfully solder all components onto the redesigned PCB boards.
-  Ensure complete functionality with both Buck Converter and Inverter.
-  Begin designing covers for Buck Converter and Inverter.
-  Begin subsystem implementation.
+  - Successfully solder all components onto the redesigned PCB boards
+  - Ensure complete functionality with both Buck Converter and Inverter
+  - Begin designing covers for Buck Converter and Inverter
+  - Begin subsystem implementation
