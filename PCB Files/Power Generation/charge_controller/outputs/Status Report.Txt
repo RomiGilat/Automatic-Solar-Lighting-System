@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [charge_controller.PrjPcb]
+   Generated File[charge_controller_pcb.TXT]
+   Generated File[charge_controller_pcb.LDP]
+   Generated File[charge_controller_pcb.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 7:32:51 AM On 11/11/2024
