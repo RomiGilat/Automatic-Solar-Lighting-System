@@ -1,0 +1,11 @@
+Tasks Completed This Week
+  - Presented team progress at TPEC
+  - Completed soldering of buck converter and tested the output voltage against a range of input voltages
+  - Debugged buck converter to solve issues and ensure preparation for integration
+
+Current Problems
+  - Buck converter is outputting a steady output voltage of 2.65V, less than the anticipated 3.3V. (Possible soldering issues with ADP1853 or MOSFET M2 on PCB)
+
+Tasks To Be Achieved Until The Next Week
+  - Correct buck converter issues
+  - Manufacture multiples of the buck converter to be implemented in the system
